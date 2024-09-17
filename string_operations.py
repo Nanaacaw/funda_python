@@ -11,4 +11,21 @@ print('wk'*5)  # wkwkwkwkwk
 
 # Slicing
 nama = 'Nanaz'
-print(nama[1:4])  # ana
+print(len(nama))  # ana
+
+# Upper
+name = 'Nana Casmana Ade Wikarta'
+print(name.upper()) # NANA CASMANA ADE WIKARTA
+
+# Strip
+myname = 'Nana Casmana Ade Wikarta'
+print(myname.strip)  # Nana Casmana Ade Wikarta
+
+# Replace
+ketawa = 'HAHAHAHHA'
+print(ketawa.replace('HA', 'he'))
+
+# Split
+anam = 'Nana Casmana Ade Wikarta'
+print(anam.split(' '))
+print(anam.split('a'))
