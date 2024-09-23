@@ -9,3 +9,6 @@ student['age'] = 22
 del student['major']
 
 print(student)
+
+B=['a','b','c']
+print(B[1:])
